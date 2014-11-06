@@ -1,0 +1,61 @@
+MemberID,Name,
+1,Andy,
+2,Bob,
+3,Cristy,WClass
+<jic version="1.0">
+[
+    {
+        "type": "class",
+        "name": "indexStyle",
+        "style": {
+            "font-weight": "bold",
+            "background-color": "#0000DD",
+            "frame-all": "1",
+            "font-color": "#FFFFFF",
+            "text-align": "center"
+        }
+    },
+    {
+        "type": "class",
+        "name": "dataStyle",
+        "style": {
+            "frame-all": "1"
+        }
+    },
+    {
+        "type": "class",
+        "name": "noteStyle",
+        "style": {
+            "font-italic": "1"
+        }
+    },
+    {
+        "type": "range",
+        "address": "A1:B1",
+        "class": "indexStyle"
+    },
+    {
+        "type": "range",
+        "address": "A2:B4",
+        "style": {
+            "font-italic": "true"
+        },
+        "class": "dataStyle"
+    },
+    {
+        "type": "range",
+        "address": "A3",
+        "style": {
+            "font-color": "#FF0000"
+        }
+    },
+    {
+        "type": "range",
+        "address": "C4",
+        "class": [
+            "dataStyle",
+            "noteStyle"
+        ]
+    }
+]
+</jic>
